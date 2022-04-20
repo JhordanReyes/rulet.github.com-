@@ -25,3 +25,7 @@ function ruleta(){
     salida = retos(numeroRamdom);
     document.getElementById("reto").innerText = salida;
 }
+function reset(){
+    let salida = document.getElementById("reto");
+    salida.innerHTML = "RETOS uwu";
+}
